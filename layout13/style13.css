@@ -10,12 +10,12 @@ body
     align-items: center;
     align-content: center;
 }
-.main
+main
 {
     width: 90%;
     height: 90%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     align-items: center;
     justify-items: center;
@@ -24,53 +24,44 @@ body
 }
 .d1
 {
-    width: 90%;
-    height: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.d1_1
-{
-    width: 65%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.d1_2
-{
     width: 30%;
-    height: 100%;
+    height: 90%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: yellow;
-
-}
-.d1_horizontal
-{
-    width: 100%;
-    height: 40%;
+    
     background-color: yellow;
 }
 .d2
 {
-    width: 90%;
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.d2_1
+{
+    width: 100%;
+    height: 30%;
+
+    background-color: yellow;
+}
+.d2_2
+{
+    width: 100%;
     height: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.d2_quadrado
+.quadrado
 {
-    width: 30%;
+    width: 40%;
     height: 100%;
     background-color: yellow;
 }
-.d2_retangulo
+.d2_3
 {
-    width: 60%;
-    height: 100%;
+    width: 100%;
+    height: 30%;
     background-color: yellow;
 }

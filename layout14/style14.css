@@ -10,7 +10,7 @@ body
     align-items: center;
     align-content: center;
 }
-.main
+main
 {
     width: 90%;
     height: 90%;
@@ -25,33 +25,22 @@ body
 .d1
 {
     width: 90%;
-    height: 60%;
+    height: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: purple;
 }
-.d1_1
+.d1_quad
 {
-    width: 65%;
+    width: 20%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.d1_2
-{
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     background-color: yellow;
-
 }
-.d1_horizontal
+.d1_ret
 {
-    width: 100%;
-    height: 40%;
+    width: 70%;
+    height: 100%;
     background-color: yellow;
 }
 .d2
@@ -61,16 +50,26 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: purple;
 }
-.d2_quadrado
+.d2_ret
 {
-    width: 30%;
+    width: 70%;
     height: 100%;
     background-color: yellow;
 }
-.d2_retangulo
+.d2_quad
 {
-    width: 60%;
+    width: 20%;
     height: 100%;
+    background-color: yellow;
+}
+.d3
+{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: yellow;
 }
